@@ -1,0 +1,3 @@
+const findElement = (arr, func) => {
+
+}
