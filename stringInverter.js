@@ -1,4 +1,4 @@
 const reverseString = str => {
-    return str.split("");
+    return str.split("").reverse();
 }
 console.log(reverseString("Hello"))
