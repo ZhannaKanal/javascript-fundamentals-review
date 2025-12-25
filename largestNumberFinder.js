@@ -4,7 +4,9 @@ const largestOfAll = arr => {
     for (let j = 0; j < arr[i].length; j++) {
 
       const largeNumber = Math.max(...arr[i])
-   
+      if (!newArr.includes(largeNumber)) {
+        newArr.push(largeNumber)
+      }
     }
   }
 }
