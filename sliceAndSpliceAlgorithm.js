@@ -5,3 +5,6 @@ const frankenSplice = (arr1, arr2, index) => {
   }
   return copied
 }
+const arr1 = [1, 2];
+const arr2 = ["a", "b"];
+const index = 1;
