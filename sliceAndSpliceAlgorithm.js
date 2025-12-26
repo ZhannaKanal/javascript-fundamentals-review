@@ -8,3 +8,5 @@ const frankenSplice = (arr1, arr2, index) => {
 const arr1 = [1, 2];
 const arr2 = ["a", "b"];
 const index = 1;
+const test = frankenSplice(arr1, arr2, index);
+console.log(test)
