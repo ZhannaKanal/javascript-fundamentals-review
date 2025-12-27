@@ -18,5 +18,6 @@ const hasPassingGrade = (score) => {
   else if (score >= 80) grade = "B";
   else if (score >= 70) grade = "C";
   else if (score >= 60) grade = "D";
+  else grade = "F";
 };
 const studentMsg = (arrayOfScores, studentScore) => {};
