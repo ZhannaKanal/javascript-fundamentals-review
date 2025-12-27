@@ -12,7 +12,8 @@ const getGrade = (score) => {
   else return "F";
 };
 const hasPassingGrade = (score) => {
-    let grade;
-    if (score === 100) grade = "A+";
+  let grade;
+  if (score === 100) grade = "A+";
+  else if (score >= 90) grade = "A";
 };
 const studentMsg = (arrayOfScores, studentScore) => {};
