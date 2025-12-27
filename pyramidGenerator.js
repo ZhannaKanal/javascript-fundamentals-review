@@ -8,7 +8,7 @@ const pyramid = (strToRepeat, numOfRows, isFalse) => {
     }
   } else {
     for (let i = 0; i < numOfRows; i++) {
-      
+      const spaces = " ".repeat(i);
     }
   }
   return result;
