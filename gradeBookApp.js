@@ -32,4 +32,5 @@ const hasPassingGrade = (score) => {
 };
 const studentMsg = (arrayOfScores, studentScore) => {
     const average = getAverage(arrayOfScores);
+    const grade = getGrade(studentScore);
 };
