@@ -10,6 +10,7 @@ const pyramid = (strToRepeat, numOfRows, isFalse) => {
     for (let i = 0; i < numOfRows; i++) {
       const spaces = " ".repeat(i);
       const repeated = strToRepeat.repeat(2 * (numOfRows - i) - 1);
+      result += spaces + repeated + "\n";
     }
   }
   return result;
