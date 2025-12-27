@@ -31,8 +31,11 @@ const hasPassingGrade = (score) => {
   else return false;
 };
 const studentMsg = (arrayOfScores, studentScore) => {
-    const average = getAverage(arrayOfScores);
-    const grade = getGrade(studentScore);
-    const hasPassed = hasPassingGrade(studentScore);
-    const result = hasPassed ? "You passed the course." : "You failed the course.";
+  const average = getAverage(arrayOfScores);
+  const grade = getGrade(studentScore);
+  const hasPassed = hasPassingGrade(studentScore);
+  const result = hasPassed
+    ? "You passed the course."
+    : "You failed the course.";
+  return `Class average: ${average}. Your grade: ${grade}. ${result}`;
 };
