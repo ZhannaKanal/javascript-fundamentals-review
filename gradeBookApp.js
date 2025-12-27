@@ -13,5 +13,6 @@ const getGrade = (score) => {
 };
 const hasPassingGrade = (score) => {
     let grade;
+    if (score === 100) grade = "A+";
 };
 const studentMsg = (arrayOfScores, studentScore) => {};
