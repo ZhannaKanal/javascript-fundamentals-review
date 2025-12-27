@@ -13,3 +13,4 @@ const pyramid = (strToRepeat, numOfRows, isFalse) => {
   }
   return result;
 };
+console.log(pyramid("o", 4, true));
