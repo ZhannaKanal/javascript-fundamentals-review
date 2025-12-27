@@ -39,3 +39,5 @@ const studentMsg = (arrayOfScores, studentScore) => {
     : "You failed the course.";
   return `Class average: ${average}. Your grade: ${grade}. ${result}`;
 };
+
+console.log(studentMsg([56, 23, 89, 42, 75, 11, 68, 34, 91, 19], 100));
