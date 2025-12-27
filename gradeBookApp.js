@@ -3,6 +3,8 @@ const getAverage = (arr) => {
     for (let i = 0; i < arr.length; i++) sum += arr[i];
     return sum / arr.length;
 };
-const getGrade = (studentScore) => {};
+const getGrade = (score) => {
+    if (score === 100) return "A+";
+};
 const hasPassingGrade = (score) => {};
 const studentMsg = (arrayOfScores, studentScore) => {};
