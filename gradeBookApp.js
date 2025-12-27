@@ -11,5 +11,7 @@ const getGrade = (score) => {
   else if (score >= 60) return "D";
   else return "F";
 };
-const hasPassingGrade = (score) => {};
+const hasPassingGrade = (score) => {
+    let grade;
+};
 const studentMsg = (arrayOfScores, studentScore) => {};
