@@ -1,3 +1,2 @@
-const getAverage = arr => {
-
-}
+const getAverage = (arr) => {};
+const getGrade = (studentScore) => {};
