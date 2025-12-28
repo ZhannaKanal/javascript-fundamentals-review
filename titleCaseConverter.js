@@ -13,4 +13,5 @@ const titleCase = (str) => {
       }
     }
   }
+  return newArr.join("");
 };
