@@ -7,6 +7,7 @@ const titleCase = (str) => {
       newArr.push(" ");
     }
     for (let j = 1; j < splitted[i].length; j++) {
+      newArr.push(splitted[i][j].toLowerCase());
       
     }
   }
