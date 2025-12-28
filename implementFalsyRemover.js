@@ -6,4 +6,5 @@ const bouncer = (arr) => {
     } else {
     }
   }
+  return newArr;
 };
