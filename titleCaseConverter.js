@@ -17,3 +17,4 @@ const titleCase = (str) => {
 };
 console.log(titleCase("I'm a little tea pot"));
 titleCase("HERE IS MY HANDLE HERE IS MY SPOUT")
+titleCase("sHoRt AnD sToUt")
