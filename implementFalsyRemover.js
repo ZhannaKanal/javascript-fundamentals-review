@@ -8,3 +8,4 @@ const bouncer = (arr) => {
   }
   return newArr;
 };
+console.log(bouncer([7, "ate", "", false, 9]))
