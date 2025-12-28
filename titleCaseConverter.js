@@ -6,5 +6,8 @@ const titleCase = (str) => {
     if (splitted[i].length === 1 && i !== splitted.length - 1) {
       newArr.push(" ");
     }
+    for (let j = 1; j < splitted[i].length; j++) {
+      
+    }
   }
 };
