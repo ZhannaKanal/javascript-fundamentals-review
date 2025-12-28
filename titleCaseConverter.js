@@ -16,3 +16,4 @@ const titleCase = (str) => {
   return newArr.join("");
 };
 console.log(titleCase("I'm a little tea pot"));
+titleCase("HERE IS MY HANDLE HERE IS MY SPOUT")
