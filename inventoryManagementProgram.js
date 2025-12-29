@@ -29,5 +29,5 @@ const removeProduct = (productName, quantity) => {
   for (let i = 0; i < inventory.length; i++) {
     
   }
-
+  console.log(`${productName.toLowerCase()} not found`);
 };
