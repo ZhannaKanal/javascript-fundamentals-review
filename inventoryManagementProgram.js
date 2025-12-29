@@ -1,13 +1,9 @@
-const inventory = []
- 
-const findProductIndex = productName => {
-  
-}
+const inventory = [];
 
-const addProduct = productObject => {
+const findProductIndex = (productName) => {
+  const lowerCased = productName.toLowerCase();
+};
 
-}
+const addProduct = (productObject) => {};
 
-const removeProduct = (productName, quantity) => {
-
-}
+const removeProduct = (productName, quantity) => {};
