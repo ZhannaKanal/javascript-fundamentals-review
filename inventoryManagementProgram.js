@@ -25,4 +25,9 @@ const addProduct = (productObject) => {
   console.log(`${productObject.name.toLowerCase()} added to inventory`);
 };
 
-const removeProduct = (productName, quantity) => {};
+const removeProduct = (productName, quantity) => {
+  for (let i = 0; i < inventory.length; i++) {
+    
+  }
+
+};
