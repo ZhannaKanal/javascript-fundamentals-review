@@ -15,7 +15,7 @@ const addProduct = (productObject) => {
     if (inventory[i].name.toLowerCase() === productObject.name.toLowerCase()) {
       inventory[i].quantity += productObject.quantity;
       console.log(`${productObject.name.toLowerCase()} quantity updated`);
-     
+      return;
     }
   }
 };
