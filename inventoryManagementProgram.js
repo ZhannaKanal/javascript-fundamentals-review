@@ -38,7 +38,7 @@ const removeProduct = (productName, quantity) => {
       } else if (subtraction === 0) {
         inventory.splice(i, 1);
         console.log(`${productName.toLowerCase()} removed from inventory`);
-       
+        return;
       }
     }
   }
