@@ -7,6 +7,7 @@ const findProductIndex = (productName) => {
       return i;
     }
   }
+    return -1;
 };
 
 const addProduct = (productObject) => {};
