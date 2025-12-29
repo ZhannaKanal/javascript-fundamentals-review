@@ -18,7 +18,11 @@ const addProduct = (productObject) => {
       return;
     }
   }
-  inventory.push(productObject);
+  inventory.push({
+    name: productObject.name.toLowerCase(),
+    quantity: productObject.quantity,
+  });
+    
 };
 
 const removeProduct = (productName, quantity) => {};
