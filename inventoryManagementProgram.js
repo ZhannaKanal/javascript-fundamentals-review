@@ -7,9 +7,11 @@ const findProductIndex = (productName) => {
       return i;
     }
   }
-    return -1;
+  return -1;
 };
 
-const addProduct = (productObject) => {};
+const addProduct = (productObject) => {
+  for (let i = 0; i < inventory.length; i++) {}
+};
 
 const removeProduct = (productName, quantity) => {};
