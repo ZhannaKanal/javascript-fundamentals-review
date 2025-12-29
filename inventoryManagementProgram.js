@@ -36,6 +36,7 @@ const removeProduct = (productName, quantity) => {
         );
         return;
       } else if (subtraction === 0) {
+        inventory.splice(i, 1);
         
       }
     }
