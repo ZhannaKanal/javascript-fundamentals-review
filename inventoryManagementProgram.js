@@ -18,6 +18,7 @@ const addProduct = (productObject) => {
       return;
     }
   }
+  inventory.push(productObject);
 };
 
 const removeProduct = (productName, quantity) => {};
