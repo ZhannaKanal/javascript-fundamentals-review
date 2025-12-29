@@ -34,7 +34,7 @@ const removeProduct = (productName, quantity) => {
         console.log(
           `Remaining ${productName.toLowerCase()} pieces: ${subtraction}`
         );
-        
+        return;
       } 
     }
   }
