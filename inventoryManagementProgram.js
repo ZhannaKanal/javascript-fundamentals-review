@@ -48,4 +48,5 @@ const removeProduct = (productName, quantity) => {
   console.log(`${productName.toLowerCase()} not found`);
 };
 
+console.log(addProduct({name: "FLOUR", quantity: 5}))
 console.log(removeProduct("FLOUR", 5))
