@@ -41,7 +41,7 @@ const removeProduct = (productName, quantity) => {
         return;
       } else {
         console.log(`Not enough ${inventory[i].name.toLowerCase()} available, remaining pieces: ${inventory[i].quantity}`)
-        
+        return;
       }
     }
   }
