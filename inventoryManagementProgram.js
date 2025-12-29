@@ -11,7 +11,11 @@ const findProductIndex = (productName) => {
 };
 
 const addProduct = (productObject) => {
-  for (let i = 0; i < inventory.length; i++) {}
+  for (let i = 0; i < inventory.length; i++) {
+    if (inventory[i].name.toLowerCase() === productObject.name.toLowerCase()) {
+      
+    }
+  }
 };
 
 const removeProduct = (productName, quantity) => {};
