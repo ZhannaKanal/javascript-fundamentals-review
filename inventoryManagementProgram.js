@@ -31,6 +31,9 @@ const removeProduct = (productName, quantity) => {
       const subtraction = inventory[i].quantity - productQuantity;
       if (subtraction > 0) {
         inventory[i].quantity = subtraction;
+        console.log(
+          `Remaining ${productName.toLowerCase()} pieces: ${subtraction}`
+        );
         
       } 
     }
