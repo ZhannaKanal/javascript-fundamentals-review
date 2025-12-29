@@ -35,7 +35,9 @@ const removeProduct = (productName, quantity) => {
           `Remaining ${productName.toLowerCase()} pieces: ${subtraction}`
         );
         return;
-      } 
+      } else if (subtraction === 0) {
+        
+      }
     }
   }
   console.log(`${productName.toLowerCase()} not found`);
