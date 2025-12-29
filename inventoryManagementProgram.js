@@ -22,7 +22,7 @@ const addProduct = (productObject) => {
     name: productObject.name.toLowerCase(),
     quantity: productObject.quantity,
   });
-    
+  console.log(`${productObject.name.toLowerCase()} added to inventory`);
 };
 
 const removeProduct = (productName, quantity) => {};
