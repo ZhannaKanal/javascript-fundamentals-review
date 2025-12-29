@@ -1,4 +1,4 @@
-const inventory = [];
+const inventory = [{name: "flour", quantity: 20}, {name: "rice", quantity: 5}];
 
 const findProductIndex = (productName) => {
   const lowerCased = productName.toLowerCase();
