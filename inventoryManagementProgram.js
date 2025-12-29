@@ -29,7 +29,9 @@ const removeProduct = (productName, quantity) => {
   for (let i = 0; i < inventory.length; i++) {
     if (inventory[i].name.toLowerCase() === productName.toLowerCase()) {
       const subtraction = inventory[i].quantity - productQuantity;
-      
+      if (subtraction > 0) {
+        
+      } 
     }
   }
   console.log(`${productName.toLowerCase()} not found`);
