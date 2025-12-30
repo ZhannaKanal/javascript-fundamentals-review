@@ -7,3 +7,4 @@ const convertHTML = (string) => {
     .replace(/'/g, "&apos;");
 };
 console.log(convertHTML("Dolce & Gabbana"));
+console.log(convertHTML('Stuff in "quotation marks"'));
