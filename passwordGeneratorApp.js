@@ -4,7 +4,7 @@ const generatePassword = (lengthOfParameter) => {
   let password = "";
   for (let i = 0; i < lengthOfParameter; i++) {
     const randomIndex = Math.floor(Math.random() * chars.length);
-   
+    password += chars[randomIndex];
   }
 };
 
