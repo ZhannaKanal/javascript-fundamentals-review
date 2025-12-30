@@ -1,4 +1,7 @@
-const generatePassword = (lengthOfParameter) => {};
+const generatePassword = (lengthOfParameter) => {
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+
+};
 
 const password = generatePassword(8);
 console.log(`Generated password: ${password}`);
