@@ -6,6 +6,7 @@ const generatePassword = (lengthOfParameter) => {
     const randomIndex = Math.floor(Math.random() * chars.length);
     password += chars[randomIndex];
   }
+  return password;
 };
 
 const password = generatePassword(8);
