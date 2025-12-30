@@ -14,3 +14,4 @@ const pairElement = (string) => {
   }
   return newArr;
 };
+console.log(pairElement("ATCG"))
