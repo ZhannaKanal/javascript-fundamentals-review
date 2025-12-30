@@ -6,3 +6,4 @@ const convertHTML = (string) => {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;");
 };
+console.log(convertHTML("Dolce & Gabbana"));
