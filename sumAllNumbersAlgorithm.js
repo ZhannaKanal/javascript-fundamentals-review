@@ -5,4 +5,5 @@ const sumAll = (arr) => {
   for (let i = minValue; i < maxValue + 1; i++) {
     sum += i;
   }
+  return sum;
 };
