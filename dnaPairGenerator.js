@@ -14,4 +14,5 @@ const pairElement = (string) => {
   }
   return newArr;
 };
-console.log(pairElement("ATCG"))
+console.log(pairElement("ATCG"));
+console.log(pairElement("CTCTA"));
