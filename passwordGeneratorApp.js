@@ -3,6 +3,7 @@ const generatePassword = (lengthOfParameter) => {
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
   let password = "";
   for (let i = 0; i < lengthOfParameter; i++) {
+    const randomIndex = Math.floor(Math.random() * chars.length);
    
   }
 };
