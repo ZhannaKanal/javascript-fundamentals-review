@@ -8,6 +8,7 @@ const pairElement = (string) => {
       newArr.push(["T", "A"]);
     } else if (splitted[i] === "C") {
       newArr.push(["C", "G"]);
+    } else if (splitted[i] === "G") {
     }
   }
   return newArr;
