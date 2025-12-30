@@ -7,4 +7,5 @@ const uniteUnique = (...args) => {
       }
     }
   }
+  return newArr;
 };
