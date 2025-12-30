@@ -7,3 +7,4 @@ const sumAll = (arr) => {
   }
   return sum;
 };
+console.log(sumAll([4, 1]));
