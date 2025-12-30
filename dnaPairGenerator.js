@@ -3,7 +3,7 @@ const pairElement = string => {
   const newArr = []
   for (let i = 0; i < splitted.length; i++) {
     if (splitted[i] === "A") {
-      
+      newArr.push(["A", "T"])
     }
   }
   return newArr
