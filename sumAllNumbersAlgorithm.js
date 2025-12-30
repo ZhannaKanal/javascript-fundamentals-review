@@ -8,3 +8,4 @@ const sumAll = (arr) => {
   return sum;
 };
 console.log(sumAll([4, 1]));
+console.log(sumAll([5, 10]));
