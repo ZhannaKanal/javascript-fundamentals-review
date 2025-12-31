@@ -5,7 +5,7 @@ const sumFibs = (number) => {
   while (curr <= number) {
     if (curr % 2 !== 0) {
       sum += curr;
-      
     }
+    [prev, curr] = [curr, prev + curr];
   }
 };
