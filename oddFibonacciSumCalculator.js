@@ -4,7 +4,7 @@ const sumFibs = (number) => {
   let sum = 1;
   while (curr <= number) {
     if (curr % 2 !== 0) {
-      
+      sum += curr;
       
     }
   }
