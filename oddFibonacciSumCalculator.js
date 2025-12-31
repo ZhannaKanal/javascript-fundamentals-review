@@ -3,6 +3,9 @@ const sumFibs = (number) => {
   let curr = 1;
   let sum = 1;
   while (curr <= number) {
-    
+    if (curr % 2 !== 0) {
+      
+      
+    }
   }
 };
