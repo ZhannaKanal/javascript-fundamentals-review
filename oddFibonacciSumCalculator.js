@@ -10,3 +10,4 @@ const sumFibs = (number) => {
   }
   return sum;
 };
+console.log(sumFibs(4))
