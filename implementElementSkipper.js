@@ -1,0 +1,3 @@
+const dropElements = (arr, func)=> {
+
+}
