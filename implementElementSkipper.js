@@ -2,7 +2,8 @@ const dropElements = (arr, func)=> {
   let newArr = []
   for(let i =0; i<arr.length; i++){
     if(func(arr[i])){
-      const newArr = arr.slice(i);
+        const newArr = arr.slice(i);
+        return newArr;
     }
   }
   return newArr
