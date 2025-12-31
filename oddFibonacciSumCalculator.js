@@ -1,4 +1,5 @@
-const sumFibs = number => {
-    let prev = 1;
-    let curr = 1;
-}
+const sumFibs = (number) => {
+  let prev = 1;
+  let curr = 1;
+  let sum = 1;
+};
