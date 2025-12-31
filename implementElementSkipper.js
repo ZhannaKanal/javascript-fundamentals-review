@@ -7,3 +7,4 @@ const dropElements = (arr, func)=> {
   }
   return newArr
 }
+console.log(dropElements([1, 2, 3, 4], function(n) {return n >= 3;}))
