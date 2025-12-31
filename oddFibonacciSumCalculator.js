@@ -8,4 +8,5 @@ const sumFibs = (number) => {
     }
     [prev, curr] = [curr, prev + curr];
   }
+  return sum;
 };
